@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Include Font Awesome CSS for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+   <!-- Include custom stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>Swarup's portfolio</title>
+</head>
+
+<body>
+  <!-- Input elements for color selection -->
+  <input type="radio" name="color" id="color-1"/>
+  <input type="radio" name="color" id="color-2"/>
+  <input type="radio" name="color" id="color-3"/>
+  <input type="radio" name="color" id="color-4"/>
+  <input type="radio" name="color" id="color-5"/>
+  <input type="radio" name="color" id="color-6"/>
+  <input type="radio" name="color" id="color-7"/>
+  <input type="radio" name="color" id="color-8"/>
+  <input type="radio" name="color" id="color-9"/>
+  <input type="radio" name="color" id="color-10"/>
+  <input type="checkbox" id="toggler"/>
+  <input type="checkbox" id="day-night"/>
+
+  
+  <!-- Style switcher for changing page styles -->
+  <div class="style__switcher">
+    <label for="toggler" class="style__switcher-toggler">
+      <i class="fa-solid fa-gear fa-spin"></i>
+    </label>
+
+    <!-- Toggle button for day/night mode -->
+    <label for="day-night" class="style__switcher-theme">
+      <i class="fa-solid fa-sun"></i>
+      <i class="fa-solid fa-moon"></i>
+    </label>
+
+    <!-- Title for color palette selection -->
+    <h3 class="style__switcher-title">Palette Aesthetics</h3>
+
+    <!-- Color options for palette selection -->
+    <div class="style__switcher-colors">
+      <label for="color-1" class="color-1 color"></label>
+      <label for="color-2" class="color-2 color"></label>
+      <label for="color-3" class="color-3 color"></label>
+      <label for="color-4" class="color-4 color"></label>
+      <label for="color-5" class="color-5 color"></label>
+      <label for="color-6" class="color-6 color"></label>
+      <label for="color-7" class="color-7 color"></label>
+      <label for="color-8" class="color-8 color"></label>
+      <label for="color-9" class="color-9 color"></label>
+      <label for="color-10" class="color-10 color"></label>
+      
+    </div>
+  </div>
+  <header class="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">Swarup</a>
+
+      <input type="checkbox" id="nav-toggler">
+      <label for="nav-toggler" class="nav__toggle">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <!-- Navigation links -->
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#home" class="nav__link active-link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#qualification" class="nav__link">Experience</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#works" class="nav__link">Projects</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact</a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+   <!-- Main content -->
+  <main class="main">
+    <!-- ... (content for the home section) -->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__content">
+          <span class="home__small">Hello</span>
+          <h1 class="home__title">
+            <span>I'm</span> Swarup <br />
+            a <span>WEB Developer</span>
+          </h1>
+          <p class="home__description">Master of design and integration, adept at problem-solving. Proficient in JAVA, C++, JAVASCRIPT, NodeJS, and ReactJS. Eager to launch new projects, turn business needs into tech solutions. Seeking a start as an entry-level software engineer at a top tech guild.</p>
+
+          <div class="home__btns">
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="#works" class="btn btn--transparent">Portfolio</a>
+          </div>
+        </div>
+        <div class="home__img-wrapper">
+          <img src="assets/img/profile.png" alt="" class="home__img" />
+        </div>
+      </div>
+    </section>
+    <!-- ... (content for the about section) -->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__img-wrapper">
+          <img src="assets/img/about.png" alt="" class="about__img" />
+          <img src="assets/img/about.png" alt="" class="about__img" />
+          <img src="assets/img/about.png" alt="" class="about__img" />
+          <img src="assets/img/about.png" alt="" class="about__img" />
+        </div>
+        <div class="about__content">
+          <h2 class="section__title" data-title="Who am I?">Hey, I'm Swarup Deb, your friendly neighborhood WEB
+            Developer and Game Designer! 🕸️🎮</h2>
+          <p class="about__description">Greetings, fellow adventurers! I am Swarup Deb, a versatile creator in both the gaming and web development realms. As a web developer, I craft enchanting online experiences using HTML, CSS, JAVASCRIPT, NodeJS, and ReactJS. In the gaming arena, I'm a master of C++, Unreal Engine, Unity3D, Blender, and After Effects. I bring ideas to life, whether they're web-based adventures or immersive gaming quests. Let's embark on a digital journey together! 🚀🎮🌐
+          </p>
+
+          <ul class="about__data grid">
+            <li class="data__item">
+              <h3 class="data__title">Name:</h3>
+              <span class="data__description">Swarup</span>
+            </li>
+
+            <li class="data__item">
+              <h3 class="data__title">Age:</h3>
+              <span class="data__description">22</span>
+            </li>
+
+            <li class="data__item">
+              <h3 class="data__title">From:</h3>
+              <span class="data__description">Tripura, India</span>
+            </li>
+
+            <li class="data__item">
+              <h3 class="data__title">Email:</h3>
+              <span class="data__description about__link">swarupdeb046@gmail.com</span>
+            </li>
+
+          </ul>
+
+          <div class="about__bottom">
+            <a href="https://drive.google.com/file/d/1TxUh8CnNcoZm539GrIP36ZcaXlSbwmTs/view?usp=drive_link" class="btn">Download Resume</a>
+
+            <div class="about__social-links">
+              <a href="https://www.linkedin.com/in/swarup04/" class="about__social-link">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/SwarupDeb" class="about__social-link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://twitter.com/SwarupDeb15" class="about__social-link">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/deb_swarup_/" class="about__social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- ... (content for the qualification section) -->
+    <section class="qualification section" id="qualification">
+      <h2 class="section__title title-center" data-title="My Adventure">
+        Qualification
+      </h2>
+      <div class="resume__container container grid">
+        <div class="resume__group">
+          <h3 class="resume__heading">Education</h3>
+          <div class="resume__items">
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Chandigarh University</h3>
+                <span class="resume__icon">+</span>
+              </div>
+
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Bachelor in Computer Science & Engineering</h3>
+                  <span class="resume__date">2019 - 2023</span>
+                </div>
+
+                <p class="resume__description">I've completed my quest and acquired a degree with a specialization in
+                  graphics and gaming!</p>
+              </div>
+            </div>
+
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Coding Ninjas</h3>
+                <span class="resume__icon">-</span>
+              </div>
+
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Back End Web Development in Node.js</h3>
+                  <span class="resume__date">July - August 2023</span>
+                </div>
+
+                <p class="resume__description">I've mastered the Back End and Full Stack Web Development skills in
+                  Node.js.</p>
+              </div>
+            </div>
+
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">University of Colarado System</h3>
+                <span class="resume__icon">-</span>
+              </div>
+
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">C# Programming for Unity Game Development</h3>
+                  <span class="resume__date">April - June 2020</span>
+                </div>
+
+                <p class="resume__description">I've successfully completed a gaming specialization designed for novice
+                  adventurers in the realm of programming. This epic journey spanned five courses, guiding me from a
+                  total newbie to a skilled C# and Unity game developer. The knowledge I gained in C# and Unity during
+                  the first four courses surpasses what's taught in the initial two game programming courses at UCCS.
+                  Ready to embark on more epic quests in the world of game development!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume__group">
+          <h3 class="resume__heading">Experience</h3>
+          <div class="resume__items">
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Zero XP gained so far</h3>
+                <span class="resume__icon"></span>
+              </div>
+
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title"></h3>
+                  <span class="resume__date"></span>
+                </div>
+
+                <p class="resume__description"></p>
+              </div>
+            </div>
+
+            <!-- <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Coding Ninjas</h3>
+                  <span class="resume__icon">-</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">Back End Web Development in Node.js</h3>
+                    <span class="resume__date">July - August 2023</span>
+                  </div>
+
+                  <p class="resume__description">I've mastered the Back End and Full Stack Web Development skills in Node.js.</p>
+                </div>
+              </div>
+
+                <div class="resume__item">
+                  <div class="resume__header">
+                    <h3 class="resume__subtitle">University of Colarado System</h3>
+                    <span class="resume__icon">-</span>
+                  </div>
+  
+                  <div class="resume__content">
+                    <div class="resume__date-title">
+                      <h3 class="resume__title">C# Programming for Unity Game Development</h3>
+                      <span class="resume__date">April - June 2020</span>
+                    </div>
+  
+                    <p class="resume__description">I've successfully completed a gaming specialization designed for novice adventurers in the realm of programming. This epic journey spanned five courses, guiding me from a total newbie to a skilled C# and Unity game developer. The knowledge I gained in C# and Unity during the first four courses surpasses what's taught in the initial two game programming courses at UCCS. Ready to embark on more epic quests in the world of game development!</p>
+                  </div>
+                </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ... (content for the skills section) -->
+    <section class="skills">
+      <h2 class="section__title title-center" data-title="My Powers">Masterful Abilities</h2>
+      <div class="skills__container container grid">
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">HTML & CSS</h3>
+            <span class="skill__no">90 %</span>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 90%">
+              <span></span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">JavaScript</h3>
+            <span class="skill__no">80 %</span>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 80%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">NodeJS</h3>
+            <span class="skill__no">65 %</span>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 65%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">ReactJS</h3>
+            <span class="skill__no">50 %</span>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 50%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Unity3D</h3>
+            <span class="skill__no">78 %</span>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 78%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Unreal Engine</h3>
+            <span class="skill__no">72 %</span>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 72%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Blender</h3>
+            <span class="skill__no">65 %</span>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 65%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Adobe After Effects</h3>
+            <span class="skill__no">85 %</span>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 85%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__item">
+          <div class="skills__titles">
+            <h3 class="skills__name">Game Writer</h3>
+            <span class="skill__no">100 %</span>
+          </div>
+          <div class="skills__bar">
+            <div class="skills__percentage" style="width: 100%">
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+    <!-- ... (content for the works section) -->
+    <section class="works section" id="works">
+      <h2 class="section__title title-center" data-title="My Portfolio">Projects</h2>
+      <div class="work__container container grid">
+        <div class="work__card">
+          <img src="assets/img/ProjectImage-1.png" alt="" class="work__img" />
+          <a href="https://www.instagram.com/deb_swarup_/" class="work__link"></a>
+
+          <div class="work__details">
+            <h3 class="work__title"><a href="https://github.com/SwarupDeb/FeedbackApp">FeedbackApp</a></h3>
+            <span class="work__description">An employee review system built for efficient performance tracking and
+              feedback management.</span>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img src="assets/img/ProjectImage-2.png" alt="" class="work__img" />
+
+          <div class="work__details">
+            <h3 class="work__title"><a href="https://github.com/SwarupDeb/HabitTracker">HabitTracker</a></h3>
+            <span class="work__description">Backend Habit Tracking Web Application.</span>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img src="assets/img/ProjectImage-3.png" alt="" class="work__img" />
+
+          <div class="work__details">
+            <h3 class="work__title"><a href="https://github.com/SwarupDeb/TODO_List">TODO_List</a></h3>
+            <span class="work__description">Responsive Todo List website.</span>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img src="assets/img/ProjectImage-4.png" alt="" class="work__img" />
+
+          <div class="work__details">
+            <h3 class="work__title"><a href="https://github.com/SwarupDeb/MEAL">MEAL APP</a></h3>
+            <span class="work__description">A meal app that allows users to search for meals and view their
+              details.</span>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img src="assets/img/ProjectImage-5.png" alt="" class="work__img" />
+
+          <div class="work__details">
+            <h3 class="work__title"><a href="https://github.com/SwarupDeb/Alarm_Clock">Alarm_Clock</a></h3>
+            <span class="work__description">Responsive Alarm_Clock website</span>
+          </div>
+        </div>
+
+        <div class="work__card">
+          <img src="assets/img/ProjectImage-6.png" alt="" class="work__img" />
+
+          <div class="work__details">
+            <h3 class="work__title"><a href="https://github.com/SwarupDeb/Calculator">Calculator</a></h3>
+            <span class="work__description">Responsive Calculator website</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ... (content for the contact section) -->
+    <section class="contact section" id="contact">
+      <h2 class="section__title title-center" data-title="Need My Assistance">Send a Message to My Quest Log!</h2>
+      <div class="contact__container container grid">
+        <div class="contact__details">
+          <div class="contact__item">
+            <i class="fa-solid fa-phone contact__icon"></i>
+
+            <div>
+              <h3 class="contact___title">Call Me</h3>
+              <span class="contact__data">+91-9366714568</span>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <i class="fa-solid fa-envelope contact__icon"></i>
+
+            <div>
+              <h3 class="contact___title">Email Me</h3>
+              <span class="contact__data">swarupdeb046@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <i class="fa-solid fa-location-dot contact__icon"></i>
+
+            <div>
+              <h3 class="contact___title">Address</h3>
+              <span class="contact__data">Uttar Machamara Bazar, near Post Office,Bharat-799263</span>
+            </div>
+          </div>
+
+        </div>
+
+        <form action="https://formspree.io/f/xjvqpobd" method="POST" class="contact__form">
+          <div class="form__group">
+            <div class="form__input">
+              <input type="text" name="Name" placeholder="Name" class="input__control" required/>
+            </div>
+
+            <div class="form__input">
+              <input type="email" name="Email" placeholder="Email" class="input__control" required/>
+            </div>
+          </div>
+
+          <div class="form__input">
+            <input type="text" placeholder="subject" class="input__control" required/>
+          </div>
+
+          <div class="form__input">
+            <textarea name="Message" id="" placeholder="Message" cols="30" rows="10"
+              class="input__control textarea" required></textarea>
+          </div>
+
+          <button type="submit" class="btn contact__btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+   <!-- Footer section -->
+  <footer class="footer">
+    <div class="footer__container container">
+      <p class="footer__copyright">© 2023 Swarup - All Loot Secured</p>
+
+      <div class="footer__social-links">
+        <a href="https://www.linkedin.com/in/swarup04/" class="footer__social-link">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/SwarupDeb" class="footer__social-link">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://twitter.com/SwarupDeb15" class="footer__social-link">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/deb_swarup_/" class="footer__social-link">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
